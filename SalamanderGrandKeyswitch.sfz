@@ -1,0 +1,33 @@
+//=====================================
+// Salamander Grand Piano V3a
+// 
+// Author: Alexander Holm
+// Contact: axeldenstore [at] gmail [dot] com
+// License: CC-by
+
+#define $FMT flac
+
+<control>
+default_path=44khz16bit-orig/
+<global>
+sw_lokey=106 sw_hikey=108 sw_default=107
+
+// Omit harmonics, key release, etc, for latency comparisons.  (Remove "//" below to add them back.)
+// #include "sounds.sfzh"
+
+// Original: play C8 to activate
+<master> sw_last=108
+#include "notes.sfz"
+
+// trimmed: default; play Bb7 to re-activate
+<control>
+default_path=44khz16bit-trimmed/
+<master> sw_last=107
+#include "notes.sfz"
+
+// demo with trimmed on left, orig on right: play A7 to activate
+<control>
+default_path=44khz16bit-joined/
+<master> sw_last=106
+#include "notes.sfz"
+

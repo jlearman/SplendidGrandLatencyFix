@@ -1,0 +1,203 @@
+//=====================================
+// Salamander Grand Piano V3a
+// 
+// Author: Alexander Holm
+// Contact: axeldenstore [at] gmail [dot] com
+// License: CC-by
+//
+//=====================================
+
+//Release string resonances
+<group> trigger=release volume=-4 amp_veltrack=94 rt_decay=6
+
+<region> sample=harmLA0.$FMT lokey=20 hikey=22 lovel=45 pitch_keycenter=21 
+<region> sample=harmLC1.$FMT lokey=23 hikey=25 lovel=45 pitch_keycenter=24 
+<region> sample=harmLD#1.$FMT lokey=26 hikey=28 lovel=45 pitch_keycenter=27 
+//========================
+<group> trigger=release volume=-4 amp_veltrack=94 rt_decay=7
+
+<region> sample=harmLF#1.$FMT lokey=29 hikey=31 lovel=45 pitch_keycenter=30 
+<region> sample=harmLA1.$FMT lokey=32 hikey=34 lovel=45 pitch_keycenter=33 
+<region> sample=harmLC2.$FMT lokey=35 hikey=37 lovel=45 pitch_keycenter=36 
+//========================
+<group> trigger=release volume=-4 amp_veltrack=90 rt_decay=8 
+
+<region> sample=harmLD#2.$FMT lokey=38 hikey=40 lovel=45 pitch_keycenter=39 
+<region> sample=harmLF#2.$FMT lokey=41 hikey=43 lovel=45 pitch_keycenter=42 
+<region> sample=harmLA2.$FMT lokey=44 hikey=46 lovel=45 pitch_keycenter=45 
+<region> sample=harmLC3.$FMT lokey=47 hikey=49 lovel=45 pitch_keycenter=48 
+//========================
+<group> trigger=release volume=-4 amp_veltrack=90 rt_decay=9
+
+<region> sample=harmLD#3.$FMT lokey=50 hikey=52 lovel=45 pitch_keycenter=51 
+<region> sample=harmLF#3.$FMT lokey=53 hikey=55 lovel=45 pitch_keycenter=54 
+<region> sample=harmLA3.$FMT lokey=56 hikey=58 lovel=45 pitch_keycenter=57 
+<region> sample=harmLC4.$FMT lokey=59 hikey=61 lovel=45
+<region> sample=harmLD#4.$FMT lokey=62 hikey=64 lovel=45 pitch_keycenter=63 
+<region> sample=harmLF#4.$FMT lokey=65 hikey=67 lovel=45 pitch_keycenter=66 
+<region> sample=harmLA4.$FMT lokey=68 hikey=70 lovel=45 pitch_keycenter=69 
+<region> sample=harmLC5.$FMT lokey=71 hikey=73 lovel=45 pitch_keycenter=72 
+<region> sample=harmLD#5.$FMT lokey=74 hikey=76 lovel=45 pitch_keycenter=75 
+<region> sample=harmLF#5.$FMT lokey=77 hikey=79 lovel=45 pitch_keycenter=78 
+<region> sample=harmLA5.$FMT lokey=80 hikey=82 lovel=45 pitch_keycenter=81 
+<region> sample=harmLC6.$FMT lokey=83 hikey=85 lovel=45 pitch_keycenter=84 
+<region> sample=harmLD#6.$FMT lokey=86 hikey=88 lovel=45 pitch_keycenter=87 
+//========================
+<group> trigger=release amp_veltrack=95 rt_decay=7
+
+<region> sample=harmSA0.$FMT lokey=20 hikey=22 hivel=44 pitch_keycenter=21 
+<region> sample=harmSC1.$FMT lokey=23 hikey=25 hivel=44 pitch_keycenter=24 
+<region> sample=harmSD#1.$FMT lokey=26 hikey=28 hivel=44 pitch_keycenter=27 
+<region> sample=harmSF#1.$FMT lokey=29 hikey=31 hivel=44 pitch_keycenter=30 
+<region> sample=harmSA1.$FMT lokey=32 hikey=34 hivel=44 pitch_keycenter=33 
+<region> sample=harmSC2.$FMT lokey=35 hikey=37 hivel=44 pitch_keycenter=36 
+<region> sample=harmSD#2.$FMT lokey=38 hikey=40 hivel=44 pitch_keycenter=39 
+<region> sample=harmSF#2.$FMT lokey=41 hikey=43 hivel=44 pitch_keycenter=42 
+//=======================
+<group> trigger=release amp_veltrack=90 rt_decay=7
+
+<region> sample=harmSA2.$FMT lokey=44 hikey=46 hivel=44 pitch_keycenter=45 
+<region> sample=harmSC3.$FMT lokey=47 hikey=49 hivel=44 pitch_keycenter=48 
+<region> sample=harmSD#3.$FMT lokey=50 hikey=52 hivel=44 pitch_keycenter=51 
+<region> sample=harmSF#3.$FMT lokey=53 hikey=55 hivel=44 pitch_keycenter=54 
+<region> sample=harmSA3.$FMT lokey=56 hikey=58 hivel=44 pitch_keycenter=57 
+<region> sample=harmSC4.$FMT lokey=59 hikey=61 hivel=44 
+<region> sample=harmSD#4.$FMT lokey=62 hikey=64 hivel=44 pitch_keycenter=63 
+<region> sample=harmSF#4.$FMT lokey=65 hikey=67 hivel=44 pitch_keycenter=66 
+<region> sample=harmSA4.$FMT lokey=68 hikey=70 hivel=44 pitch_keycenter=69 
+<region> sample=harmSC5.$FMT lokey=71 hikey=73 hivel=44 pitch_keycenter=72 
+<region> sample=harmSD#5.$FMT lokey=74 hikey=76 hivel=44 pitch_keycenter=75 
+<region> sample=harmSF#5.$FMT lokey=77 hikey=79 hivel=44 pitch_keycenter=78 
+<region> sample=harmSA5.$FMT lokey=80 hikey=82 hivel=44 pitch_keycenter=81 
+<region> sample=harmSC6.$FMT lokey=83 hikey=85 hivel=44 pitch_keycenter=84 
+<region> sample=harmSD#6.$FMT lokey=86 hikey=88 hivel=44 pitch_keycenter=87 
+//========================
+<group> trigger=release amp_veltrack=96 rt_decay=2
+
+<region> sample=harmV3A0.$FMT lokey=20 hikey=22 pitch_keycenter=21 
+<region> sample=harmV3C1.$FMT lokey=23 hikey=25 pitch_keycenter=24 
+<region> sample=harmV3D#1.$FMT lokey=26 hikey=28 pitch_keycenter=27 
+<region> sample=harmV3F#1.$FMT lokey=29 hikey=31 pitch_keycenter=30 
+<region> sample=harmV3A1.$FMT lokey=32 hikey=34 pitch_keycenter=33 
+<region> sample=harmV3C2.$FMT lokey=35 hikey=37 pitch_keycenter=36 
+<region> sample=harmV3D#2.$FMT lokey=38 hikey=40 pitch_keycenter=39 
+<region> sample=harmV3F#2.$FMT lokey=41 hikey=43 pitch_keycenter=42 
+<region> sample=harmV3A2.$FMT lokey=44 hikey=46 pitch_keycenter=45 
+<region> sample=harmV3C3.$FMT lokey=47 hikey=49 pitch_keycenter=48 
+<region> sample=harmV3D#3.$FMT lokey=50 hikey=52 pitch_keycenter=51 
+<region> sample=harmV3F#3.$FMT lokey=53 hikey=55 pitch_keycenter=54 
+<region> sample=harmV3A3.$FMT lokey=56 hikey=58 pitch_keycenter=57 
+<region> sample=harmV3C4.$FMT lokey=59 hikey=61 
+<region> sample=harmV3D#4.$FMT lokey=62 hikey=64 pitch_keycenter=63 
+<region> sample=harmV3F#4.$FMT lokey=65 hikey=67 pitch_keycenter=66 
+<region> sample=harmV3A4.$FMT lokey=68 hikey=70 pitch_keycenter=69 
+<region> sample=harmV3C5.$FMT lokey=71 hikey=73 pitch_keycenter=72 
+<region> sample=harmV3D#5.$FMT lokey=74 hikey=76 pitch_keycenter=75 
+<region> sample=harmV3F#5.$FMT lokey=77 hikey=79 pitch_keycenter=78 
+<region> sample=harmV3A5.$FMT lokey=80 hikey=82 pitch_keycenter=81 
+<region> sample=harmV3C6.$FMT lokey=83 hikey=85 pitch_keycenter=84 
+<region> sample=harmV3D#6.$FMT lokey=86 hikey=88 pitch_keycenter=87 
+//======================
+//HammerNoise
+<group> trigger=release pitch_keytrack=0 volume=-37 amp_veltrack=82 rt_decay=2
+
+<region> sample=rel1.$FMT lokey=21 hikey=21
+<region> sample=rel2.$FMT lokey=22 hikey=22 
+<region> sample=rel3.$FMT lokey=23 hikey=23 
+<region> sample=rel4.$FMT lokey=24 hikey=24 
+<region> sample=rel5.$FMT lokey=25 hikey=25 
+<region> sample=rel6.$FMT lokey=26 hikey=26 
+<region> sample=rel7.$FMT lokey=27 hikey=27 
+<region> sample=rel8.$FMT lokey=28 hikey=28 
+<region> sample=rel9.$FMT lokey=29 hikey=29    
+<region> sample=rel10.$FMT lokey=30 hikey=30 
+<region> sample=rel11.$FMT lokey=31 hikey=31 
+<region> sample=rel12.$FMT lokey=32 hikey=32 
+<region> sample=rel13.$FMT lokey=33 hikey=33 
+<region> sample=rel14.$FMT lokey=34 hikey=34 
+<region> sample=rel15.$FMT lokey=35 hikey=35 
+<region> sample=rel16.$FMT lokey=36 hikey=36 
+<region> sample=rel17.$FMT lokey=37 hikey=37 
+<region> sample=rel18.$FMT lokey=38 hikey=38 
+<region> sample=rel19.$FMT lokey=39 hikey=39 
+<region> sample=rel20.$FMT lokey=40 hikey=40 
+<region> sample=rel21.$FMT lokey=41 hikey=41 
+<region> sample=rel22.$FMT lokey=42 hikey=42 
+<region> sample=rel23.$FMT lokey=43 hikey=43 
+<region> sample=rel24.$FMT lokey=44 hikey=44 
+<region> sample=rel25.$FMT lokey=45 hikey=45 
+<region> sample=rel26.$FMT lokey=46 hikey=46 
+<region> sample=rel27.$FMT lokey=47 hikey=47 
+<region> sample=rel28.$FMT lokey=48 hikey=48 
+<region> sample=rel29.$FMT lokey=49 hikey=49
+<region> sample=rel30.$FMT lokey=50 hikey=50 
+<region> sample=rel31.$FMT lokey=51 hikey=51 
+<region> sample=rel32.$FMT lokey=52 hikey=52 
+<region> sample=rel33.$FMT lokey=53 hikey=53 
+<region> sample=rel34.$FMT lokey=54 hikey=54 
+<region> sample=rel35.$FMT lokey=55 hikey=55 
+<region> sample=rel36.$FMT lokey=56 hikey=56 
+<region> sample=rel37.$FMT lokey=57 hikey=57 
+<region> sample=rel38.$FMT lokey=58 hikey=58 
+<region> sample=rel39.$FMT lokey=59 hikey=59
+<region> sample=rel40.$FMT lokey=60 hikey=60 
+<region> sample=rel41.$FMT lokey=61 hikey=61 
+<region> sample=rel42.$FMT lokey=62 hikey=62 
+<region> sample=rel43.$FMT lokey=63 hikey=63 
+<region> sample=rel44.$FMT lokey=64 hikey=64 
+<region> sample=rel45.$FMT lokey=65 hikey=65 
+<region> sample=rel46.$FMT lokey=66 hikey=66 
+<region> sample=rel47.$FMT lokey=67 hikey=67 
+<region> sample=rel48.$FMT lokey=68 hikey=68 
+<region> sample=rel49.$FMT lokey=69 hikey=69
+<region> sample=rel50.$FMT lokey=70 hikey=70 
+<region> sample=rel51.$FMT lokey=71 hikey=71 
+<region> sample=rel52.$FMT lokey=72 hikey=72 
+<region> sample=rel53.$FMT lokey=73 hikey=73 
+<region> sample=rel54.$FMT lokey=74 hikey=74 
+<region> sample=rel55.$FMT lokey=75 hikey=75 
+<region> sample=rel56.$FMT lokey=76 hikey=76 
+<region> sample=rel57.$FMT lokey=77 hikey=77 
+<region> sample=rel58.$FMT lokey=78 hikey=78 
+<region> sample=rel59.$FMT lokey=79 hikey=79 
+<region> sample=rel60.$FMT lokey=80 hikey=80     
+<region> sample=rel61.$FMT lokey=81 hikey=81
+<region> sample=rel62.$FMT lokey=82 hikey=82 
+<region> sample=rel63.$FMT lokey=83 hikey=83 
+<region> sample=rel64.$FMT lokey=84 hikey=84 
+<region> sample=rel65.$FMT lokey=85 hikey=85 
+<region> sample=rel66.$FMT lokey=86 hikey=86 
+<region> sample=rel67.$FMT lokey=87 hikey=87 
+<region> sample=rel68.$FMT lokey=88 hikey=88 
+<region> sample=rel69.$FMT lokey=89 hikey=89
+<region> sample=rel70.$FMT lokey=90 hikey=90 
+<region> sample=rel71.$FMT lokey=91 hikey=91 
+<region> sample=rel72.$FMT lokey=92 hikey=92 
+<region> sample=rel73.$FMT lokey=93 hikey=93 
+<region> sample=rel74.$FMT lokey=94 hikey=94 
+<region> sample=rel75.$FMT lokey=95 hikey=95 
+<region> sample=rel76.$FMT lokey=96 hikey=96 
+<region> sample=rel77.$FMT lokey=97 hikey=97 
+<region> sample=rel78.$FMT lokey=98 hikey=98 
+<region> sample=rel79.$FMT lokey=99 hikey=99
+<region> sample=rel80.$FMT lokey=100 hikey=100 
+<region> sample=rel81.$FMT lokey=101 hikey=101 
+<region> sample=rel82.$FMT lokey=102 hikey=102 
+<region> sample=rel83.$FMT lokey=103 hikey=103 
+<region> sample=rel84.$FMT lokey=104 hikey=104 
+<region> sample=rel85.$FMT lokey=105 hikey=105 
+<region> sample=rel86.$FMT lokey=106 hikey=106 
+<region> sample=rel87.$FMT lokey=107 hikey=107 
+<region> sample=rel88.$FMT lokey=108 hikey=108
+//======================
+//pedalAction
+
+<group> group=1 hikey=-1 lokey=-1 on_locc64=126 on_hicc64=127 off_by=2 volume=-20
+
+<region> sample=pedalD1.$FMT lorand=0 hirand=0.5
+<region> sample=pedalD2.$FMT lorand=0.5 hirand=1
+
+<group> group=2 hikey=-1 lokey=-1 on_locc64=0 on_hicc64=1 volume=-19
+
+<region> sample=pedalU1.$FMT lorand=0 hirand=0.5
+<region> sample=pedalU2.$FMT lorand=0.5 hirand=1
