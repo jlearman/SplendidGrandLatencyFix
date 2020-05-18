@@ -6,9 +6,10 @@ silence or quiet noise at the beginning of each note sample.  (Only note
 samples were changed.)
 
 The sfz file provides a comparison keyswitch: 
-  o Play C8 for original
-  o Play Bb7 for trimmed (default)
-  o Play A7 for trimmed right channel on left, original right channel on right
+
+  - Play C8 for original
+  - Play Bb7 for trimmed (default)
+  - Play A7 for trimmed right channel on left, original right channel on right
 
 Note that your brain will comprehend a delay on one channel as spatial cue,
 so you'll hear that rather than a slapback echo.
